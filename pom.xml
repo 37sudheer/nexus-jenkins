@@ -30,15 +30,16 @@
   </dependencies>
   
   <distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <name>Nexus Hosted Repository</name>
-      <url>${nexus.host.url}/repository/nexus-hosted/</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <name>Nexus Snapshot Repository</name>
-      <url>${nexus.host.url}/repository/nexus-snapshot/</url>
+                 <repository>
+                          <id>nexus</id>
+                          <name>Nexus Hosted Repository</name>
+                          <url>${nexus.host.url}/repository/nexus-hosted/</url>
+                 </repository>
+                 <snapshotRepository>
+                         <id>nexus</id>
+                         <name>Nexus Snapshot Repository</name>
+                         <url>${nexus.host.url}/repository/nexus-snapshot/</url>
+                  <snapshotRepository>
 </distributionManagement
 
   <build>
