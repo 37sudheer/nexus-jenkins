@@ -34,7 +34,7 @@
       <id>nexus</id>
       <name>Nexus Release Repository</name>
       <url>${nexus.host.url}/repository/nexus-hosted/</url>
-    <repository>
+    </repository>
     <snapshotRepository>
       <id>nexus</id>
       <name>Nexus Snapshot Repository</name>
